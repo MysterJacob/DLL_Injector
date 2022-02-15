@@ -125,7 +125,6 @@ namespace DDL_Injector
             this.pid_box.Name = "pid_box";
             this.pid_box.Size = new System.Drawing.Size(84, 20);
             this.pid_box.TabIndex = 5;
-            this.pid_box.TextChanged += new System.EventHandler(this.pid_box_TextChanged);
             // 
             // lock_on_pid
             // 
@@ -205,7 +204,6 @@ namespace DDL_Injector
             this.Name = "Form1";
             this.Text = "Dll Injector";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.DragDrop += new System.Windows.Forms.DragEventHandler(this.Form1_DragDrop);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
