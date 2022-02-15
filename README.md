@@ -1,3 +1,3 @@
 # DDL_Injector
-Thread based dll injector. c#
-# WIP
+Thread based dll injector written in c# .Net Forms.
+
